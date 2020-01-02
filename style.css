@@ -73,3 +73,10 @@
 form {
     margin: 0 auto;
 }
+
+.carousel-item div {
+    height: 289px;
+    display: grid;
+    align-items: center;
+    margin-top: 40px;
+}
