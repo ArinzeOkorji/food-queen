@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    width: 90vh;
+    justify-content: space-around;
+}
+
+.hero1 {
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('img/food-3.jpg');
+}
+
+.hero1 .layer {
+    height: 100%;
+    background-color: rgba(37, 37, 37, .35);
+}
+
+.hero1 .hero-message {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.hero-message h1 {
+    font-size: 88px;
+    color: #fff;
+}
+
+.about .col-5 {
+    text-align: center;
+}
+
+.about img {
+    height: 50vh;
+    width: 100%;
+}
+
+.services {
+    background-color: #E7EA50;
+}
+
+.services img {
+    max-height: 150px;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.testimonials .avatar {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/girl.jpg');
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.locations {
+    background-color: #E7EA50;
+}
+
+form {
+    margin: 0 auto;
+}
